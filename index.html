@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy.clone</title>
+    <!--Google Font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--CDN font link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Navbar section-->
+    <div class="Navbar">
+      <div class="Navbar__s1">
+        <h1>Udemy</h1>
+      </div>
+      <div class="Navbar__s2">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0)"></i>
+        <input type="text" placeholder="search anything...." />
+      </div>
+      <div class="Navbar__s3">
+        <p>Trending courses</p>
+        <p>My learning</p>
+        <p><i class="fa-solid fa-bell" style="color: rgb(0, 0, 0)"></i></p>
+        <p>
+          <i class="fa-solid fa-cart-shopping" style="color: rgb(0, 0, 0)"></i>
+        </p>
+        <p><i class="fa-solid fa-user" style="color: rgb(0, 0, 0)"></i></p>
+      </div>
+    </div>
+    <!--Category section-->
+    <div class="Categories">
+      <p>Development</p>
+      <p>Business</p>
+      <p>IT & Software</p>
+      <p>Personal Development</p>
+      <p>Design</p>
+      <p>Marketing</p>
+    </div>
+    <!--Sale section-->
+    <div class="sale-image">
+      <img src="./images/sales-img.webp" alt="sales-img" />
+    </div>
+    <!--Recommended section-->
+    <div class="recommended">
+      <h1 class="recommended__title">Recommended for you</h1>
+      <p>Pick the best fit</p>
+      <div class="recommended__container">
+        <div class="course-card">
+          <img src="./images/recommededcourses-img/python.jpg" />
+          <h3>2026 Python Data Science Masterclass</h3>
+          <p>Corey Schafer</p>
+          <p>4.8 ⭐⭐⭐⭐</p>
+          <p>₹499 <del>1200</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/recommededcourses-img/prompt.jpg" />
+          <h3>2026 Prompt Engineering</h3>
+          <p>TUF</p>
+          <p>4.9 ⭐⭐⭐⭐</p>
+          <p>₹299 <del>999</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/recommededcourses-img/javascript.jpg" />
+          <h3>Complete Javascript Mastery</h3>
+          <p>SuperSimpleDev</p>
+          <p>4.8 ⭐⭐⭐⭐</p>
+          <p>₹899 <del>1999</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/recommededcourses-img/webdevelopment.jpg" />
+          <h3>2026 Fullstack Development Master course</h3>
+          <p>free code champ</p>
+          <p>4.5 ⭐⭐⭐⭐</p>
+          <p>₹1399 <del>2999</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/recommededcourses-img/ux.jpg" />
+          <h3>Master UI/UX design with figma</h3>
+          <p>Col Steele</p>
+          <p>3.9 ⭐⭐⭐</p>
+          <p>₹999 <del>1899</del></p>
+        </div>
+      </div>
+    </div>
+    <!--Topics-->
+    <div class="topics">
+      <h1 class="topics__title">Topics recommended for you</h1>
+      <div class="topics__container">
+        <p>Web development</p>
+        <p>Database</p>
+        <p>React JS</p>
+        <p>Azure</p>
+        <p>AWS</p>
+        <p>Github</p>
+        <p>Databricks</p>
+        <p>Gen AI</p>
+        <p>DevOps</p>
+      </div>
+    </div>
+    <!--Popular course-->
+    <div class="popular">
+      <h1 class="popular__title">Popular Courses</h1>
+      <p class="popular__substitle">Pick the best for you</p>
+      <div class="popular__container">
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/webdevelopment.webp" />
+          <h3>100 Days of code:The Complete Python Pro Bootcamp</h3>
+          <p>Dr.Angela Yu</p>
+          <p>4.7 ⭐⭐⭐⭐</p>
+          <p>₹569.00 <del>₹3,199.00</del></p>
+        </div>
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/react.webp" />
+          <h3>React - The Complete Guide(incl. Next.js, Redux)</h3>
+          <p>Maximilian</p>
+          <p>4.7 ⭐⭐⭐⭐</p>
+          <p>₹629.00<del>₹3,549.00</del></p>
+        </div>
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/javascript.webp" />
+          <h3>The Complete JavaScript Course 2025: From Zero to Expert</h3>
+          <p>jonas Schmedtmann</p>
+          <p>4.7 ⭐⭐⭐⭐</p>
+          <p>₹629.00 <del>₹3,549.00</del></p>
+        </div>
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/aws.webp" />
+          <h3>Ultimate AWS Certified Solutions Architect Associate 2026</h3>
+          <p>Stephane Maarek</p>
+          <p>4.7 ⭐⭐⭐⭐</p>
+          <p>₹619.00 <del>₹3,469.00</del></p>
+        </div>
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/azurefundamental.webp" />
+          <h3>Master Microsoft Azure Fundamentals: AZ-900 Exam Prep 2026</h3>
+          <p>Scott Duffy</p>
+          <p>4.6 ⭐⭐⭐⭐</p>
+          <p>₹669.00 <del>₹3,779.00</del></p>
+        </div>
+        <div class="popular__courses">
+          <img src="./images/popularcourses-img/sql.webp" />
+          <h3>The Complete Oracle SQL Certification Course</h3>
+          <p>Job Ready Programmer</p>
+          <p>4.6 ⭐⭐⭐⭐</p>
+          <p>₹799.00 <del>₹4,469.00</del></p>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer__one">
+        <div class="footer__one__s1">
+          <p>Udemy Business</p>
+          <p>Teach on Udemy</p>
+          <p>About us</p>
+          <p>Contact us</p>
+        </div>
+        <div class="footer__one__s2">
+          <p>Careers</p>
+          <p>Blog</p>
+          <p>Help and Support</p>
+          <p>Affiliate</p>
+          <p>Investors</p>
+        </div>
+      </div>
+      <div class="footer__two">
+        <h1>Udemy</h1>
+        <p>&copy; Udemy,Inc.</p>
+      </div>
+    </div>
+  </body>
+</html>
