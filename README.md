@@ -8,14 +8,6 @@ A responsive **Udemy Clone** website built using **HTML5 and CSS3**, inspired by
 
 ---
 
-## 📸 Project Preview
-
-<!-- Add your project screenshot here -->
-
-![Udemy Clone Preview](./images/preview.png)
-
----
-
 ## ✨ Features
 
 - 🧭 Responsive navigation bar
