@@ -1,28 +1,34 @@
 # 🎓 Udemy Clone
 
-A responsive **Udemy Clone** website built using **HTML5 and CSS3**, inspired by the Udemy online learning platform. This project recreates the main layout and visual structure of an online course marketplace, including navigation, categories, course recommendations, popular courses, topics, and footer sections.
+A fully responsive **Udemy Clone** built using **HTML5** and **CSS3**, inspired by the Udemy online learning platform. This project replicates the core user interface of an online course marketplace, featuring a responsive navigation system, course sections, promotional banner, topic recommendations, and mobile-friendly layouts using Flexbox and Media Queries.
 
 ## 🔗 Live Demo
 
-**Live Website:** [https://sherwinjclitus.github.io/Udemy-clone/]
+**Live Website:**  
+https://sherwinjclitus.github.io/Udemy-clone/
 
 ---
 
 ## ✨ Features
 
-- 🧭 Responsive navigation bar
-- 🔍 Search bar with search icon
-- 📚 Course categories section
-- 🎉 Promotional/sales banner
-- ⭐ Recommended courses section
-- 📈 Popular courses section
-- 🏷️ Recommended topics section
-- 🛒 Shopping cart icon
-- 🔔 Notification icon
-- 👤 User profile icon
-- 📱 Responsive Flexbox-based layout
-- 🎨 Udemy-inspired styling and color scheme
-- 🦶 Footer with useful navigation links
+- 🧭 Responsive Navigation Bar
+- 🔍 Search Bar with Icon
+- 📚 Course Categories Section
+- 🎉 Promotional Sale Banner
+- ⭐ Recommended Courses Section
+- 📈 Popular Courses Section
+- 🏷️ Topics Recommendation Section
+- 🛒 Shopping Cart Icon
+- 🔔 Notification Icon
+- 👤 User Profile Section
+- 📱 Mobile-Friendly Responsive Design
+- 🎨 Udemy-Inspired User Interface
+- 📦 Flexbox-Based Layout System
+- ⚡ CSS Animations for Promotional Banner
+- 🖱️ Interactive Hover Effects
+- 📌 Sticky Navigation Bar
+- 📚 Learning Popup Menu
+- 🦶 Footer with Navigation Links
 
 ---
 
@@ -31,9 +37,10 @@ A responsive **Udemy Clone** website built using **HTML5 and CSS3**, inspired by
 - HTML5
 - CSS3
 - Flexbox
+- Media Queries
 - Google Fonts
-- Font Awesome
-- WebP / JPG Images
+- Font Awesome Icons
+- WebP & JPG Images
 
 ---
 
@@ -44,6 +51,7 @@ udemy-clone/
 │
 ├── index.html
 ├── style.css
+├── README.md
 │
 ├── images/
 │   ├── sales-img.webp
@@ -62,5 +70,60 @@ udemy-clone/
 │       ├── aws.webp
 │       ├── azurefundamental.webp
 │       └── sql.webp
-│
-└── README.md
+```
+
+---
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+- 🖥️ Desktop Devices
+- 💻 Laptops
+- 📱 Mobile Phones
+- 📟 Tablets
+
+Media Queries are used to adjust layouts, hide unnecessary elements on smaller screens, and improve the overall user experience across different screen sizes.
+
+---
+
+## 🚀 What I Learned
+
+Through this project, I gained hands-on experience with:
+
+- Building responsive layouts using Flexbox
+- Creating modern UI designs with CSS
+- Implementing Media Queries for responsiveness
+- Working with positioning and animations
+- Structuring real-world web page layouts
+- Managing project deployment using GitHub Pages
+- Writing clean and organized HTML/CSS code
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+To run locally:
+
+```bash
+git clone https://github.com/SherwinjClitus/Udemy-clone.git
+cd Udemy-clone
+```
+
+Then open `index.html` in your browser.
+
+---
+
+## 👨‍💻 Author
+
+**Sherwin J Clitus**
+
+- GitHub: https://github.com/SherwinjClitus
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
