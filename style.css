@@ -133,10 +133,13 @@ body {
 .course-card {
   flex-grow: 0;
   flex-basis: 20%;
+  box-sizing: border-box;
+  overflow: hidden;;
 }
 .course-card img {
-  height: 50%;
+  height: auto;
   width: 100%;
+  display: block;
 }
 
 .topics {
@@ -167,10 +170,13 @@ body {
 .popular__courses {
   flex-grow: 0;
   flex-basis: 20%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .popular__courses img {
-  height: 50%;
+  height: auto;
   width: 100%;
+  display: block;
 }
 
 .footer {
@@ -224,7 +230,7 @@ body {
 
   .course-card,
   .popular__courses {
-    flex: 0 0 45%;
+    flex: 45%;
     margin: 0;
     box-sizing: border-box;
   }
