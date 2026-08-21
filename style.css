@@ -128,11 +128,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:15px;
 }
 .course-card {
-  width: 250px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  flex-grow: 0;
+  flex-basis: 20%;
 }
 .course-card img {
   height: 50%;
@@ -162,11 +162,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:15px;
 }
 .popular__courses {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 250px;
+  flex-grow: 0;
+  flex-basis: 20%;
 }
 .popular__courses img {
   height: 50%;
@@ -189,4 +189,48 @@ body {
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+/* Media Query*/
+
+@media screen and (max-width:930px) {
+  .sale-box{
+    display:none;
+    }
+
+}
+@media screen and (max-width:800px) {
+  .Categories{
+    display: none;
+  }  
+}
+
+@media screen and (max-width:600px) {
+
+  .Navbar__s3,
+  .Navbar__s2 {
+    display: none;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .recommended__container,
+  .popular__container {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .course-card,
+  .popular__courses {
+    flex: 0 0 45%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .footer__one,
+  .footer__two {
+    flex-direction: column;
+  }
 }
